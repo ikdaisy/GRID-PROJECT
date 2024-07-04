@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Patua+One&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: rgb(65, 64, 64);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(../images/image-header.jpg);
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    
+
+}
+.grid{
+    display: grid;
+    grid-template-columns:auto auto ;
+    grid-template-rows: auto auto auto;
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 100%;
+    max-height: 100vh;
+    
+}
+.child{
+    /* border: 2px solid black; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+}
+
+.child img {
+    max-width: 100%;
+    object-fit: cover;
+    min-height: 100%;
+}
+.text1, .text2{
+    padding: 25%;
+}
+
+
+.text1 h2{
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Volkhov", serif;
+    padding-bottom:20px;
+    
+}
+.text1 p{
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom:40px;
+    font-weight: bold;
+
+    color: #78787a;
+}
+
+.text2 h2{
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom:20px;
+    font-family: "Volkhov", serif;
+    
+}
+.text2 p{
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom:40px;
+    font-weight: bolder;
+
+    color: #78787a;
+}
+
+.img-container{
+    position: relative;
+
+}
+
+.text{
+    position: absolute;
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-60%, -60%);
+    padding: 20px;
+    text-align: center;
+
+}
+.text h2{
+    padding-bottom: 20px;
+    color: rgb(43, 42, 42);
+}
+
+.heading3{
+    color: rgb(126, 121, 121);
+    font-size: 24px;
+    margin-bottom:30px;
+    margin-top: 40px;
+    letter-spacing: 10px;
+    font-family: "Wittgenstein", serif;
+}
+
+
+ .left h1{
+    color: white;
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+    
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+    margin:30px;
+   
+
+}
+.left h2{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.right{
+    font-size: large;
+}
+.heading1{
+  font-family: "Patua One", serif;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 20%;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    /* border: 1px solid black; */
+    transform: translate(-50%,);
+
+}
+
+.down-arrow {
+    margin-top: 4rem;
+    margin-left: 25rem;
+  }
+  
+.down-arrow img {
+    max-width: 36px;
+    width: 100%;
+  }
+/* .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    align-items: center;
+    font-size: 74px;
+    line-height: 3;
+    color: white;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    
+} */
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+    color: white;
+    
+    
+}
+
+li{
+margin: 0px 20px;
+
+}
+
+h1{
+    color: white;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 60vh;
+  }
+  
+  .testi-container{
+    display: flex;
+    justify-content: space-around;
+    padding-right:20px;
+    
+  }
+
+  .para1, .para2 , .para3{
+    margin-top: 40px ;
+    margin-bottom: 40px;
+    color: #646466;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .author{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: black;
+  }
+  .pos{
+    color: gray;
+    font-size: small;
+  }
+  .info{
+    max-width: 300px;
+    margin: 10px;
+  }
+  .info img{
+    border-radius: 50%;
+    width: 80px;
+    height: 10vh;
+    
+  }
+ 
+  .cards{
+    display: flex;
+    width:100% ;
+    height: 69vh;
+
+   
+  }
+
+  .image img{
+    width: 100%;
+    height: 60%;
+  }
+
+  .last{
+    background-color: rgb(150, 234, 217);
+    width: 100%;
+    height: 45vh;
+    
+  }
+  .last_text{
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 26px;
+    text-align: center;
+
+     color:#2D7465;
+     
+     
+  }
+
+  .last li{
+    color: #4F9485;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+  }
+
+  ol{
+    list-style: none;
+    display: flex;
+    padding: 2% 39%;
+  }
+
+  .links{
+        font-size: 24px;
+        color: rgb(11, 110, 89);
+        padding: 1% 44%;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 5rem;
+        
+  }
